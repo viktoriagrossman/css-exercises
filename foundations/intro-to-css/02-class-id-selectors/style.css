@@ -1,1 +1,21 @@
 /* Add CSS Styling */
+.first {
+    color:black;
+    font-family: Verdana, 'DejaVu Sans', sans-serif;
+    background-color: 	#ffb09c;
+}
+
+#second {
+    color: blue;
+    font-size: 36px;
+}
+
+.third {
+    font-size: 24px;
+}
+
+#fourth {
+    font-size: 24px;
+    font-weight: bold;
+    background-color: lch(72.9% 41.75 152.23);
+}
