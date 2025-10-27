@@ -1,1 +1,18 @@
 /* Add CSS Styling */
+/* Only the `p` elements that are descendants of the `div` element should have a  
+   yellow background, red text, a font size of 20px, and center aligned. */
+
+div>p {
+
+/* element x, element y = selects all x elements and all y elements*/
+/* element x element y = selects all y elements inside x element*/
+/* classname1.classname2 = Selects all elements with both name1 and name2 set within its class attribute*/
+/* classname1 .classname2 = CSS will select all elements with name2 that is a child of an element with name1 */
+/* element x>element y = CSS will select all y where the parent is x*/
+    background-color: yellow;
+    color: red;
+    font-size: 20px;
+    text-align: center;
+
+}
+
